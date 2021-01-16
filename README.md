@@ -14,8 +14,6 @@ Configurações de atalhos para o git
 
   Encurta a realização do commit
 
-  ***
-
   #### Exemplo
 
   ```bash
@@ -27,11 +25,11 @@ Configurações de atalhos para o git
      $ git c <your_message>
   ```
 
+  ***
+
 - ### s
 
   Encurta a realização do git status
-
-  ***
 
   #### Exemplo
 
@@ -42,6 +40,8 @@ Configurações de atalhos para o git
     //Depois
     $ git s
   ```
+
+  ***
 
 - ### l
 
@@ -56,6 +56,8 @@ Configurações de atalhos para o git
     //Depois
     $ git l
   ```
+
+  ***
 
 - ### r
 
