@@ -16,7 +16,7 @@ Configurações de atalhos para o git
 
   #### Exemplo
 
-  ```bash
+  ```shell
      //Antes
      $ git add --all
      $ git commit -m <your_message>
@@ -33,7 +33,7 @@ Configurações de atalhos para o git
 
   #### Exemplo
 
-  ```bash
+  ```shell
     //Antes
     $ git status -s
 
@@ -49,7 +49,7 @@ Configurações de atalhos para o git
 
   #### Exemplo
 
-  ```bash
+  ```shell
     //Antes
     $ git log --pretty=format:'%C(blue)%h%C(red)%d %C(white)%s %C(cyan)%cn, %C(green)%cr'
 
@@ -65,7 +65,7 @@ Configurações de atalhos para o git
 
   #### Exemplo
 
-  ```bash
+  ```shell
     //Antes
     $ git remote add origin <yourrepostiory>
 
