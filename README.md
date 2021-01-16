@@ -57,7 +57,7 @@ Configurações de atalhos para o git
     $ git l
   ```
 
-  - ### r
+- ### r
 
   Encurta a realização do git remote
 
