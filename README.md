@@ -8,67 +8,71 @@ Configurações de atalhos para o git
 
 - Em _.gitconfig_ no campo _user_ altere os dados para o seu usuário
 
-## Atalhos
+## Alias
 
-- ### c
+> ### c
 
-  Encurta a realização do commit
+Encurta a realização do commit
 
-  #### Exemplo
+---
 
-  ```shell
-     //Antes
-     $ git add --all
-     $ git commit -m <your_message>
+#### Exemplo
 
-     //Depois
-     $ git c <your_message>
-  ```
+```shell
+   //Antes
+   $ git add --all
+   $ git commit -m <your_message>
 
-  ***
+   //Depois
+   $ git c <your_message>
+```
 
-- ### s
+> ### s
 
-  Encurta a realização do git status
+Encurta a realização do git status
 
-  #### Exemplo
+---
 
-  ```shell
-    //Antes
-    $ git status -s
+#### Exemplo
 
-    //Depois
-    $ git s
-  ```
+```shell
+  //Antes
+  $ git status -s
 
-  ***
+  //Depois
+  $ git s
+```
 
-- ### l
+---
 
-  Realiza um log rico de informações formatado
+> ### l
 
-  #### Exemplo
+Realiza um log rico de informações formatado
 
-  ```shell
-    //Antes
-    $ git log --pretty=format:'%C(blue)%h%C(red)%d %C(white)%s %C(cyan)%cn, %C(green)%cr'
+---
 
-    //Depois
-    $ git l
-  ```
+#### Exemplo
 
-  ***
+```shell
+  //Antes
+  $ git log --pretty=format:'%C(blue)%h%C(red)%d %C(white)%s %C(cyan)%cn, %C(green)%cr'
 
-- ### r
+  //Depois
+  $ git l
+```
 
-  Encurta a realização do git remote
+> ### r
 
-  #### Exemplo
+Encurta a realização do git remote
 
-  ```shell
-    //Antes
-    $ git remote add origin <yourrepostiory>
+---
 
-    //Depois
-    $ git r <your_repository>
-  ```
+#### Exemplo
+
+```shell
+  //Antes
+  $ git remote add origin <yourrepostiory>
+
+  //Depois
+  $ git r <your_repository>
+```
