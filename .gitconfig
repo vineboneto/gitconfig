@@ -10,6 +10,8 @@
 	r = !git remote add origin
 	s = !git status -s
 	l = !git log --pretty=format:'%C(blue)%h%C(red)%d %C(white)%s - %C(cyan)%cn, %C(green)%cr'
+	tags = !git -c 'versionsort.suffix=-' tag --list --sort=-v:refname
+	tg = "!f() { "git tag -a ${1} -m ${1}"; }; f"
 	amend = !git add --all && git commit --amend --no-edit
 	count = !git shortlog -s --grep 
 
