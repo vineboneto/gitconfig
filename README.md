@@ -68,3 +68,32 @@ Encurta a realização do git remote
   //Depois
   $ git r <your_repository>
 ```
+
+Encurta a Criação de tags
+
+---
+
+#### Exemplo
+
+```shell
+  //Antes
+  $ git tag "0.0.1" -m "0.0.1"
+
+  //Depois
+  $ git tg "0.0.1"
+```
+
+Buca todas as tags de forma decrescente
+
+---
+
+#### Exemplo
+
+```shell
+  //Antes
+  $ git -c 'versionsort.suffix=-' tag --list --sort=-v:refname
+
+  //Depois
+  $ git tags
+```
+
