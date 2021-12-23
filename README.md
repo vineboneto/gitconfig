@@ -10,8 +10,6 @@ Configurações de atalhos para o git
 
 ## Alias
 
-* ### c
-
 Encurta a realização do commit
 
 ---
@@ -26,8 +24,6 @@ Encurta a realização do commit
    //Depois
    $ git c <your_message>
 ```
-
-* ### s
 
 Encurta a realização do git status
 
@@ -45,8 +41,6 @@ Encurta a realização do git status
 
 ---
 
-* ### l
-
 Realiza um log rico de informações formatado
 
 ---
@@ -60,8 +54,6 @@ Realiza um log rico de informações formatado
   //Depois
   $ git l
 ```
-
-* ### r
 
 Encurta a realização do git remote
 
